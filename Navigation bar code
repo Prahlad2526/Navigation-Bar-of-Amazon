@@ -1,0 +1,34 @@
+# this is what you use in html....
+<div id="navbar">
+        <a id="logo" href="#">Amazon.in</a>
+        <a href="#">Account</a>
+        <a href="#">My cart</a>
+        <a href="#">Contact us</a>
+        <input placeholder="search Amazon.in">
+        <button>search</button>
+    </div>
+
+#and this is what you use in CSS
+
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+    
+}
+
+#navbar{
+    height: 60px;
+    background-color: #0f1111;
+}
+button{
+    background-color:#f08804;
+}
+#logo{
+    color: #f08804;
+    font-size: 25px;
+    gap: 200px;
+}
+a{
+    margin-right: 190px;
+}
